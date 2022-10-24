@@ -1,4 +1,4 @@
-# app
+# Haddock Challenge
 
 ## Project setup
 ```
