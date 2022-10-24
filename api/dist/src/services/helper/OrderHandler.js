@@ -20,9 +20,6 @@ class OrderHandler {
         };
     }
     getDiscounts() {
-        console.log('calculateDeal2x1', this.calculateDeal2x1());
-        console.log('calculateDealSpendXSaveY', this.calculateDealSpendXSaveY());
-        console.log('calculateDealPackPromotion', this.calculateDealPackPromotion());
         return this.calculateDeal2x1()
             + this.calculateDealSpendXSaveY()
             + this.calculateDealPackPromotion();

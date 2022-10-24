@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "client-build": "cd front && npm i && npm run build",
+    "server-build": "cd api && npm i && npm run build",
+    "client-start": "cd front && npm run start",
+    "server-start": "cd api && npm run start",
+    "build": "concurrently \"npm run client-build\" \"npm run server-build\" ",
+    "start": "concurrently \"npm run client-start\" \"npm run server-start\" "
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
