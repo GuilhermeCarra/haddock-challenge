@@ -1,0 +1,8 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .5rem;
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}

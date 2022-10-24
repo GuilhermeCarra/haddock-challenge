@@ -1,0 +1,9 @@
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.product-quantity {
+  font-weight: 600;
+}

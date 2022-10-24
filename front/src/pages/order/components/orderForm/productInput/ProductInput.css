@@ -1,0 +1,10 @@
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.product-input {
+  max-width: 2rem;
+  max-height: 2rem;
+}
